@@ -92,10 +92,3 @@ input.addEventListener('keydown',function(event){
 //         event.target.parentElement.remove()        //nodeName gives the element due to which an event has occured like in this case if click is occured due to button press.
 //     }                                              // here target will be that button as because of it the event has been triggered so we have removed its parent element
 // });
-
-
-
-
-
-
-
