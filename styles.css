@@ -17,15 +17,12 @@ h1{
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-  
-    
 }
 ul{
     margin-top: 7px;
      width: 20rem;
      padding: 1rem;
 }
-
 li{
     background: linear-gradient(to right bottom,#1d5372  #1d5372, #0a5d65, #129762, #a8eb12);
     border-radius: 10px;
@@ -53,8 +50,6 @@ li:hover{
     box-shadow: 1px 1px 12px #6662629b;
  
 }
-
-
 .delete{
     color: rgb(243, 243, 250);
     font-weight: 550;
@@ -106,7 +101,6 @@ input:focus{
 .remove:hover{
     background-color: rgb(188, 91, 91) ;
 }
-
 @media (max-width: 768px) {
     .main{
         width: 20rem;
