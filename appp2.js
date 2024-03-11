@@ -43,6 +43,6 @@ button.addEventListener('click',function(){
 
 input.addEventListener('keydown',function(event){
     if(event.code=='Enter'){
-     ncheckEmpty();
+      checkEmpty();
     }}
 );
