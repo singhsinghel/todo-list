@@ -18,13 +18,11 @@ function events(){
     li.appendChild(btn);     // appending button in the list
      text.appendChild(li);   // appending list in the ul
 
-
     input.value='';
     text.style.display='block';      
     btn.addEventListener('click',function(){
       this.parentElement.classList.add('new');
       this.style.backgroundColor="rgb(207, 102, 102)";
-
       del.addEventListener('click',function(){
           li.remove();
       });
