@@ -81,7 +81,7 @@ input.addEventListener('keydown',function(event){
           });
     
           del.addEventListener('dblclick',function(){
-            text.remove();
+            list.remove();
            });
         }
     }
